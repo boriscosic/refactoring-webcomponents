@@ -25,4 +25,4 @@ Communication between monolithic app and smaller web components can be done via 
 
 ## Extensibility
 
-Use this to break up larger application, transition off older frameworks, build extensible components. With inclusion of React, web components could be self contained.
+Use this to break up larger application, transition off older frameworks, build extensible components. With inclusion of React, web components could be self contained. Something similar can be done with Angular Web Elements but it is a little more effort and larger bundle sizes https://www.telerik.com/blogs/getting-started-with-angular-elements.
