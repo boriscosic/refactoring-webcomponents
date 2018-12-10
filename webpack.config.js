@@ -45,7 +45,7 @@ module.exports = {
     },
     output: {
         path: path.resolve(__dirname, 'dist/js'),
-        filename: (chunkData) => chunkData.chunk.entryModule.rawRequest.replace('jsx', 'js'),
+        filename: (chunkData) => chunkData.chunk.entryModule.rawRequest.replace('src/', '').replace('jsx', 'js'),
         libraryTarget: 'umd'
     },
     plugins: [],
