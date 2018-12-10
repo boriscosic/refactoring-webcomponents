@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Refactoring Web Components</title>
+</head>
+<body>
+	<h1>Good Old App</h1>
+	<p>
+		<button onclick="window.dispatchEvent(new CustomEvent('handleExternalEvent'));">Externally Update Container Count State</button>
+	</p>
+	<div id="TestContainer" />
+
+	<script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+	<script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+	<script src="./dist/js/containers/TestContainer/TestContainer.js"></script>
+</body>
+</html>
